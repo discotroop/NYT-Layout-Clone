@@ -30,6 +30,13 @@ p {
 .img-text {
     width: 60vw;
 }
+.media-info {
+    background-color: blue;
+}
+
+.media-author {
+    background-color: red;
+}
 
 .main-text {
     margin: auto;
