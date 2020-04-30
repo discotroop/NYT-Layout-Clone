@@ -35,3 +35,10 @@ p {
     margin: auto;
     width: 600px;
 }
+
+.read-more {
+    background-color: lightgoldenrodyellow;
+}
+.footer {
+    background-color: lightgray;
+}
