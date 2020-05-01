@@ -77,27 +77,32 @@ p {
 
 .main {
     margin: 80px 10vw 0 10vw;
-    background-color: lightskyblue;
     /* auto ? */
-}
-.img-container {
-    background-color: lightsalmon;
 }
 
 .img-text {
     width: 60vw;
 }
 .media-info {
-    background-color: blue;
+    color: black;
+    font-size: 15px;
 }
 
 .media-author {
-    background-color: red;
+    color: grey;
+    font-size: 15px;
 }
 
 .main-text {
     margin: auto;
     width: 600px;
+}
+.main-text h1 {
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+
 }
 
 .read-more {
