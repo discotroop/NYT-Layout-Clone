@@ -142,7 +142,26 @@ p {
     font-style: italic;
     font-weight: 700;
     font-size: 40px;
-
+}
+.main-text a {
+    color: rgb(50, 104, 145);
+}
+.subscribe-gap {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    text-align: center;
+}
+.subscribe-gap h4 {
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.subscribe-gap a {
+    text-decoration: none;
+}
+.subscribe-gap hr {
+    width: 60px;
+    color: lightgrey;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .read-more {
