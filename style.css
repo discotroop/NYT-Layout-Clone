@@ -92,6 +92,46 @@ p {
     color: grey;
     font-size: 15px;
 }
+.date-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+.date-media .date-stamp {
+    font-size: 13px;
+}
+
+.header h4 a {
+    color: black;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+.media-icon svg {
+    background-color: lightgrey;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.media-icon svg:hover {
+    background-color: white;
+}
+
+.media button {
+    border-style: none;
+    background: none;
+}
 
 .main-text {
     margin: auto;
