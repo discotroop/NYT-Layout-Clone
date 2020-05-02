@@ -163,6 +163,13 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.graphic-main {
+    background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 54.8vw;
+}
 
 .read-more {
     background-color: lightgoldenrodyellow;
