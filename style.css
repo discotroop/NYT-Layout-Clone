@@ -163,6 +163,16 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.leading-text {
+    margin-bottom: 5px;
+}
+.leading-text h3 {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.leading-text span {
+    font-size: 14px;
+}
 .graphic-main {
     background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
     background-size: contain;
@@ -172,7 +182,27 @@ p {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 1vw;
 }
+.grid-para {
+    padding-right: 10px;
+}
+.graphic-main-bold {
+    font-weight: bold;
+}
+.graphic-authors {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+.graphic-authors::before {
+    width: 60px;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 0 0 13px;
+    background-color: #000;
+}
+
 
 .read-more {
     background-color: lightgoldenrodyellow;
