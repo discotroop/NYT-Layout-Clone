@@ -300,7 +300,6 @@ p {
     grid-column-gap: 10px;
 }
 .footer {
-    background-color: green;
     width: 100%;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
@@ -310,7 +309,7 @@ p {
     display: inline-block;
     height: 3px;
     margin: 0 0 13px;
-    background-color: rgb(138, 138,138);
+    background-color: rgb(200, 200, 200);
     margin-right: 5px;
 }
 .logo {
@@ -337,7 +336,8 @@ p {
     margin-top: 0;
 }
 .links li {
-    padding-top: 4px;
+    padding: 4px;
+    padding-left: 0px;
 }
 .links a {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -347,17 +347,75 @@ p {
 .paper {
     display: grid;
     grid-template-columns: repeat(5, 20%);
+    border-style: solid; 
+    border-color: rgb(200, 200, 200);
+    border-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
 }
-.paper h4 {
-    color: rgb(138, 138, 138)
+.footer h4 {
+    color: rgb(51, 51, 51);
 }
 
-.final-links::before {
+.subscribe {
+    padding-left: 10px;
+}
+.line {
     width: 100%;
     content: '';
     display: inline-block;
     height: 1px;
     margin: 0 0 13px;
-    background-color: #000;
+    background-color: rgb(200, 200, 200);
+    margin-right: 5px; 
+}
+.icon-links a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 15px;
+    padding-bottom: 0px;
+}
+.icon-links-graphic {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+.icon-links {
+    white-space: no-wrap;
+}
+
+.final::before {
+    width: 100%;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 0 0 13px;
+    background-color:rgb(200, 200, 200);
     margin-right: 5px;
+    margin-top: 20px;
+}
+
+.final-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.final-links a {
+    font-size: 11px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    color: #666;
+
 }
