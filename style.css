@@ -321,6 +321,7 @@ p {
 .logo-svg {
     min-width: 5vw;
     max-width: 10vw;
+    margin-bottom: 10px;
 }
 .logo a {
     font-size: 12px;
