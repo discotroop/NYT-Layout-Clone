@@ -56,7 +56,8 @@ p {
     font-weight: 700;
 }
 .nav-title {
-    font-family: 'UnifrakturMaguntia', cursive;
+    min-width: 5vw;
+    max-width: 18vw;
 }
 
 .social {
@@ -203,7 +204,6 @@ p {
     background-color: #000;
 }
 .bottom {
-    width: 1000px;
     margin-left: 10vw;
     margin-right: 10vw;
 }
@@ -281,9 +281,6 @@ p {
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
     font-size: 19px;
 }
-.popular-link a:hover {
-    color: rgb(18, 18, 18));
-}
 
 .editor::before {
     width: 100%;
@@ -303,10 +300,44 @@ p {
     grid-column-gap: 10px;
 }
 .footer {
-    background-color: lightgray;
+    background-color: green;
     width: 100%;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+.footer::before {
+    width: 100%;
+    content: '';
+    display: inline-block;
+    height: 3px;
+    margin: 0 0 13px;
+    background-color: rgb(138, 138,138);
+    margin-right: 5px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.logo-svg {
+    min-width: 5vw;
+    max-width: 10vw;
+}
+.logo a {
+    font-size: 12px;
+    color: rgb(86, 123, 149);
+}
+.links {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
-    grid-column-gap: 10px;
+    grid-template-columns: 80% 20%;
+}
+
+.final-links::before {
+    width: 100%;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 0 0 13px;
+    background-color: #000;
+    margin-right: 5px;
 }
