@@ -331,6 +331,26 @@ p {
     display: grid;
     grid-template-columns: 80% 20%;
 }
+.links ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+.links li {
+    padding-top: 4px;
+}
+.links a {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+
+.paper {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+}
+.paper h4 {
+    color: rgb(138, 138, 138)
+}
 
 .final-links::before {
     width: 100%;
