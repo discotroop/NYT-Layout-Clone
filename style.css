@@ -420,3 +420,11 @@ p {
     color: #666;
 
 }
+
+#logo-top {
+    min-width: 230px;
+}
+
+#logo-bottom {
+    min-width: 130px;
+}
